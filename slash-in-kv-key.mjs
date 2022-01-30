@@ -7,5 +7,5 @@ const mf = new Miniflare({
 });
 
 const ns = await mf.getKVNamespace("TEST_NAMESPACE");
-await ns.put("/foo/bar", "baz");
-await ns.put("/foo", "bar");
+await ns.put("foo/bar", "baz");
+await ns.put("foo", "bar");

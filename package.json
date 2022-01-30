@@ -1,0 +1,12 @@
+{
+  "name": "miniflare-kv-slash",
+  "license": "MIT",
+  "type": "module",
+  "main": "slash-in-kv-key.mjs",
+  "scripts": {
+    "start": "node ./slash-in-kv-key.mjs"
+  },
+  "dependencies": {
+    "miniflare": "^2.0.0"
+  }
+}
